@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="top.scythe.cordova.plugin.http" version="1.0">
+  <name>ScytheHttpPlugin</name>
+  <description>Scythe Http Plugin</description>
+  <author>Scythe</author>
+  <license>Apache 2.0 License</license>
+  <js-module src="www/http.js" name="ScytheHttp">
+    <clobbers target="ScytheHttp"/>
+  </js-module>
+</plugin>
